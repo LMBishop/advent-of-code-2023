@@ -1,0 +1,23 @@
+
+{
+    "compilerOptions": {
+      "target": "es2022",
+      "module": "commonjs",
+      "lib": [
+        "esnext",
+        "dom"
+      ],
+      "jsx": "react-jsx",
+      "noEmit": false,
+      "strict": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true
+    },
+    "exclude": ["node_modules"]
+  }
